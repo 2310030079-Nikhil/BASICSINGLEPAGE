@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+        body {
+            background-color: yellow;
+        }
+
+        input[type="number"]:out-of-range {
+            border: 2px solid red;
+        }
+
+        input[type="number"]:in-range {
+            border: 2px solid green;
+        }
+
+        input[type="email"]:invalid {
+            border: 2px solid red;
+        }
+
+        input[type="email"]::placeholder {
+            color: blue;
+        }
+
+        input[type="name"]:invalid {
+            border: 2px solid red;
+        }
+
+        input.name::placeholder {
+            color: blue;
+        }
+
+        p::first-line {
+            text-decoration: underline;
+        }
+
+        p::first-letter {
+            font-size: 20px;
+            color: red;
+        }
+
+        p::before {
+            content: "KLU :";
+        }
+
+        p::after {
+            content: "END";
+        }
+
+        p::selection {
+            background-color: gray;
+            color: white;
+        }
+
+        ol li::marker {
+            color: red;
+        }
+
+        .c1 {
+            list-style-type: none;
+        }
+
+        .c1 li::before {
+            content: "\2713";
+            color: red;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" placeholder="Enter age" min="0" max="20" style="width: 500px;">
+    <br><br>
+    <input type="email" placeholder="Enter email address">
+    <br><br>
+    <input type="name" placeholder="Enter your name" pattern="[A-Za-z]+$">
+    <p>
+        dicta, similique sit illo, autem laudantium dolore! Illo ratione consectetur explicabo facere veniam distinctio doloremque, qui voluptas perspiciatis porro. Quidem, suscipit aspernatur facilis, similique error, ipsam commodi accusantium amet debitis libero magni porro vel. Praesentium inventore exercitationem facere tempore veniam suscipit excepturi asperiores quidem? Inventore vel, in placeat ducimus dolor assumenda id rem pariatur dolorum praesentium doloribus aliquid sint mollitia. Numquam sequi illo exercitationem vitae voluptates.
+    </p>
+
+    <ol>
+        <li>CI/CD Pipeline</li>
+        <li>CSS</li>
+        <li>DevOps</li>
+        <li>ExcelR</li>
+        <li>FSD</li>
+        <li>git</li>
+        <li>GitHub</li>
+        <li>GitHub Repository</li>
+        <li>GitHub Pages</li>
+        <li>GitHub Actions</li>
+        <li>GitHub Issues</li>
+        <li>GitHub Pull Requests</li>
+        <li>GitHub Commits</li>
+        <li>GitHub Branches</li>
+        <li>GitHub Forks</li>
+        <li>GitHub Clones</li>
+        <li>GitHub Releases</li>
+        <li>GitHub Tags</li>
+        <li>GitHub Webhooks</li>
+        <li>GitHub API</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>KLU</li>
+        <li>repository</li>
+        <li>SPA</li>
+    </ol>
+
+    <ol class="c1">
+        <li>CI/CD Pipeline</li>
+        <li>CSS</li>
+        <li>DevOps</li>
+        <li>ExcelR</li>
+        <li>FSD</li>
+        <li>git</li>
+        <li>GitHub</li>
+        <li>GitHub Repository</li>
+        <li>GitHub Pages</li>
+        <li>GitHub Actions</li>
+        <li>GitHub Issues</li>
+        <li>GitHub Pull Requests</li>
+        <li>GitHub Commits</li>
+        <li>GitHub Branches</li>
+        <li>GitHub Forks</li>
+        <li>GitHub Clones</li>
+        <li>GitHub Releases</li>
+        <li>GitHub Tags</li>
+        <li>GitHub Webhooks</li>
+        <li>GitHub API</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>KLU</li>
+        <li>repository</li>
+        <li>SPA</li>
+    </ol>
+</body>
+</html>
